@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsha Bhuin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0 0 33);
+            color: whitesmoke;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 99px;
+            background-color:rgb(18, 18, 62) ;
+        }
+
+        nav ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: black;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            color: bisque;
+            font-weight: bold;
+        }
+
+        nav .left IMG {
+            width: 24%;
+            image-resolution: 300px;
+            float: left;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstsection div {
+            width: 80%;
+            ;
+        }
+
+        .leftsection {
+            background-color: rgb(0, 0, 33);
+            margin: 60px;
+            font-size: 2.6rem;
+
+        }
+
+        .rightsection {
+            width: 23px;
+            margin: 23px;
+        }
+
+        .rightsection img {
+            width: 50%;
+            margin: 40px 0;
+            justify-content: right;
+        }
+
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a
+                href="https://www.linkedin.com/in/utkarsha-bhuin-685036277/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <div class="left"><IMG src="Screenshot 2024-08-20 161801.png">UTKARSHA BHUIN</div>
+                <div class="right"></div>
+                <ul>
+                    <a href="">
+                        <li>My Blog</li>
+                    </a>
+                    <a href="">
+                        <li>Home</li>
+                    </a>
+                    <a href=" ">
+                        <li>About</li>
+                    </a>
+                    <a href=" ">
+                        <li>Services</li>
+                    </a>
+                    <a href="https://forms.visme.co/formsPlayer/kkg49j70-simple-newsletter-subscription">
+                        <li>Your Details</li>
+                    </a>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is &nbsp;<span class="red">UTKARSHA</span>
+                <div> and Welcome to the family.</div>
+                <div> I am a passionate web developer,</div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+            </div>
+
+            <div class="rightsection">
+                <img src="png.avif" alt="">
+            </div>
+    </main>
+
+
+    <!--set up the animation part of the  code of my website-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Wordpress Builder', 'Moreover I am a reader....'],
+            typeSpeed: 50,
+        });
+    </script>
+    </script>
+    <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/5967fcd4-ebcd-4ded-bccd-6122c1512b39/webchat/v2.1/config.js"></script>
+</body>
+
+</html>
